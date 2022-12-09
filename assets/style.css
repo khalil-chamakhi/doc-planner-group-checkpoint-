@@ -1,0 +1,63 @@
+.nobull{
+    float: right;
+    padding: 0;
+    list-style: none;
+}
+.menu{
+    display: inline;
+}
+.menu a{
+    text-decoration:none;
+    font-size: 20px ;
+    font-family: 'Courier New', Courier, monospace;
+    color: #00b39b;
+}
+.title{
+    float: left;
+    overflow: hidden;
+}
+.top{
+    display: inline-block;
+    overflow: hidden;
+}
+.right{
+    float: right;
+    overflow: hidden;
+    text-align: center;
+}
+.ico{
+    width: 268px; 
+    height: 33px;
+    
+}
+.icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:5%;
+}
+.repart{
+    display: flex;
+    flex-direction: column;
+}
+.toptext{
+    max-width: 477px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.para{
+    padding-top: 70px;
+    padding-right: 20px;
+    margin:auto;
+    width: 50%;
+    padding-left: 50px;
+}
+.para p{
+    font-size: 16px;
+    color: #747474;
+}
+.title{
+    color: #00b39b;
+    text-align: center;
+}
